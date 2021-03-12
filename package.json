@@ -1,0 +1,37 @@
+{
+	"version": "1.0.0",
+	"description": "",
+	"development": {
+		"port": "8200"
+	},
+	"main": "build/index.js",
+	"scripts": {
+		"dev": "NODE_ENV=development node internals/scripts/start-dev.js",
+		"build": "NODE_ENV=production node internals/scripts/start-prod.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.13.0",
+		"@babel/core": "^7.13.8",
+		"@babel/plugin-proposal-class-properties": "^7.13.0",
+		"@babel/plugin-proposal-decorators": "^7.13.5",
+		"@babel/plugin-transform-arrow-functions": "^7.13.0",
+		"@babel/plugin-transform-runtime": "^7.13.9",
+		"@babel/plugin-transform-spread": "^7.13.0",
+		"@babel/polyfill": "^7.12.1",
+		"@babel/preset-env": "^7.13.8",
+		"@babel/preset-typescript": "^7.13.0",
+		"@babel/runtime": "^7.13.9",
+		"babel-loader": "^8.2.2",
+		"circular-dependency-plugin": "^5.2.2",
+		"core-js": "^3.9.1",
+		"express": "^4.17.1",
+		"webpack": "^5.24.2",
+		"webpack-dev-middleware": "^4.1.0",
+		"webpack-hot-middleware": "^2.25.0"
+	},
+	"dependencies": {},
+	"name": "linq"
+}
