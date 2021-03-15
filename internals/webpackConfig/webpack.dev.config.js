@@ -15,5 +15,6 @@ module.exports = require('./webpack.base.config')({
       exclude: /a\.js|node_modules/,
       failOnError: false,
     }),
-  ]
+  ],
+  resolve: {}
 });

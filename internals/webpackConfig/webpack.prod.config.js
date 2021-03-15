@@ -5,5 +5,6 @@ const {
 
 module.exports = require('./webpack.base.config')({
   entry: getEntryModel(PROD),
-  mode: PROD
+  mode: PROD,
+  resolve: {}
 });
